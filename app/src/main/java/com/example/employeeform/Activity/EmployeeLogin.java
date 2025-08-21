@@ -34,6 +34,8 @@ public class EmployeeLogin extends AppCompatActivity {
             return insets;
         });
 
+        //add input data
+
         et_userName=findViewById(R.id.et_userName);
         et_Password=findViewById(R.id.et_Password);
         btnLogin=findViewById(R.id.btnLogin);

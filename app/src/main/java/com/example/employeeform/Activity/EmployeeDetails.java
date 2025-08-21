@@ -59,6 +59,7 @@ public class EmployeeDetails extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         Log.e("list",""+MyDBName.getData().toString());
         empList.addAll(MyDBName.getData());
+        //activity
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 

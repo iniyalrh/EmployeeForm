@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Employee Form</string>
+    <string name="select_department">RegisterPage</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="update_employee">Update Employee</string>
+    <string name="delete_employee">Delete Employee</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="employee_login">Employee Login</string>
+    <string name="salary">Salary</string>
+    <string name="enter_salary">Enter Salary</string>
+    <string name="save">Save</string>
+    <string name="designation">Designation</string>
+    <string name="department">Department</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_emailid">Enter EmailId</string>
+    <string name="email_id">Email ID</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender</string>
+    <string name="enter_employeename">Enter EmployeeName</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="enter_employeeid">Enter EmployeeID</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="employee_Management">Employee Management System</string>
+</resources>

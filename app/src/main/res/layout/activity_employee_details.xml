@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+   >
+
+    <include layout="@layout/layout_toolbar"/>
+
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_emp_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            tools:itemCount="1"
+            tools:listitem="@layout/item_empdetails" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAddEmp"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+
+                android:backgroundTint="#60B5FF"
+                android:text="@string/add_employee" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+</ScrollView>
+
+
+
+</LinearLayout>

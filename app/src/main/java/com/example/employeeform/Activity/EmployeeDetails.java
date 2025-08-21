@@ -50,16 +50,15 @@ public class EmployeeDetails extends AppCompatActivity {
 
         ArrayList<EmployeeDetailModel> empList = new ArrayList<>();
         Intent intent = getIntent();
-        if(intent.hasExtra("list")){
-           empList = (ArrayList<EmployeeDetailModel>) getIntent().getSerializableExtra("list");
-
+        if(intent.hasExtra("list")) {
+            empList = (ArrayList<EmployeeDetailModel>) getIntent().getSerializableExtra("list");
         }
+        //add command line
 
         RecyclerView recyclerView= findViewById(R.id.rv_emp_list);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         Log.e("list",""+MyDBName.getData().toString());
         empList.addAll(MyDBName.getData());
-        //activity
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
